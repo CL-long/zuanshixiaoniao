@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100%;
+}
+
+#da {
+    width: 100%;
+    border: 1px solid rgb(192, 185, 185);
+    background: rgb(250, 246, 246);
+}
+
+#da #list_1 {
+    width: 1200px;
+    height: 469px;
+    background: yellow;
+    margin: auto;
+    background: url(../img/uu.png) center/cover;
+}
+
+#da #list_1 #jx {
+    display: block;
+    font-size: 33px;
+    color: #000;
+    font-family: Arial, '宋体';
+    padding-top: 175px;
+
+}
+
+#da #list_1 #wm {
+    text-align: left;
+    width: 450px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+    font-family: arial, '微软雅黑';
+    margin-top: 20px;
+
+}
+
+/* 列表商品 */
+#lb {
+    width: 100%;
+}
+
+#lb #lby {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    /* background:red */
+    position: relative;
+
+}
+
+#lb #lby #lby_1 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+#lb #lby #qb li {
+
+    height: 52px;
+    line-height: 53px;
+    border: 1px solid #dedede;
+    /* float: left; */
+    width: 100%;
+    list-style: none;
+}
+
+#lb #lby #qb a {
+    text-align: left;
+    font-family: Arial, "微软雅黑";
+    font-size: 14px;
+    padding-left: 20px;
+    margin-right: 50px;
+    color:#000;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+#lb #lby #qb span {
+    float: right;
+    margin-right: 30px;
+}
+
+#lb #lby #qb .lg {
+    display: none;
+}
+
+/* 图列表 */
+#tulist {
+    width: 100%;
+    clear: both;
+}
+
+#tulist_1 {
+    padding-top:22px;
+    width: 1200px;
+    height: 100%;
+    /* background: red; */
+    margin: auto;
+
+}
+#tulist_2{
+    width: 1200px;
+    height: 130px;
+    /* background:yellow; */
+}
+#tulist_3{
+    width: 1200px;
+    height: 100%;
+  
+}
+#tulist_3 .mm1{
+    height:581px;
+    width: 370px;
+    float: left;
+    margin-right:40px;
+    border-bottom: 1px solid rgb(247, 236, 236);
+    color:black;
+
+}
+#tulist_3 .mm2{
+    height: 581px;
+    width: 370px;
+    float: left;
+    margin-right:40px;
+    border-bottom: 1px solid rgb(247, 236, 236);
+    color:black;
+
+}
+#tulist_3 .mm3{
+    height: 581px;
+    width: 370px;
+    float: left;
+    border-bottom: 1px solid rgb(238, 225, 225);
+    color:black;
+
+}
+#tulist_3 img{
+    width: 370px;
+    height: 370px;
+    margin-top:80px;
+}
+#tulist_3 .mm1:hover{
+    border-bottom:1px solid black;
+    
+}
+#tulist_3 .mm2:hover{
+    border-bottom:1px solid black;
+    
+}
+#tulist_3 .mm3:hover{
+    border-bottom:1px solid black;
+    
+}
+#ye{
+    clear: both;
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+   position: relative;
+    margin-bottom: 60px;
+    /* margin-top:60px; */
+     padding-top:60px;
+    /* background:red; */
+}
+#wenzi{
+   width: 1200px;
+   height: 300px;
+ /* padding:50px 0 50px 0; */
+  margin: 50px  0  50px  0;
+   /* background:yellow; */
+   border-top: 1px solid rgb(185, 180, 180);
+   border-bottom: 1px solid rgb(185,180,180);
+   /* position: relative; */
+}
+#wenzi .wenzi_1{
+    width: 1200px;
+    height: 200px;
+    margin: 50px 0;
+    /* background:red; */
+}
+#wenzi .wenzi_1  a h2 {
+    float: left;
+    width: 600px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black
+
+}
+#wenzi .wenzi_1 ul{
+    display: block;
+    margin-top:10px;
+    float: left;
+}
+#wenzi .wenzi_1 ul li{
+    list-style: none;
+  width: 300px;
+  height: 28px;
+  font-size: 14px;
+}
+#wenzi .wenzi_1 ul li a{
+    text-decoration:none;
+    font-size:14px;
+    color: #000;
+}
+#wenzi .wenzi_1 #biaoqian{
+    width: 600px;
+    float: right;
+    height: 181px;
+    /* background:green; */
+   
+}
+#wenzi .wenzi_1 #biaoqian #ppp1{
+    width: 100%;
+    height: 30px;
+    margin-top:20px;
+ 
+}
+#wenzi .wenzi_1 #biaoqian p{
+    width: 600px;
+    height: 30px;
+    display: block;
+}
+#wenzi .wenzi_1 #biaoqian  p a{
+     text-decoration: none;
+    background: #f5f5f5;
+    margin-bottom: 13px;
+    margin-right: 8px;
+    color: black;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+    
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #333;
+} 
+
+

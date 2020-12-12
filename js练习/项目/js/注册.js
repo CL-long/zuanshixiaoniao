@@ -1,0 +1,20 @@
+$(function(){
+    $("#lu_1").click(function(){
+        $.ajax({
+            url:"http://jx.xuzhixiang.top/ap/api/reg.php",
+            data:{
+                username:$("#ji_1").val(),
+                password:$("#mima_1").val()
+            }, 
+            success:function(res){
+                console.log(res);
+                if(res.code==1){
+                    alert("注册成功");
+                    location.href="登录页.html"
+                }else{
+                    alert("用户名已存在");
+                }
+            }
+        })
+    })
+})

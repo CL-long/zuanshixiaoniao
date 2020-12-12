@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#che{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    
+}
+#kong{
+    width: 100%;
+    border-top:2px solid rgb(211, 176, 176);
+    height: 50px;
+    /* background:red; */
+}
+#che .che_1{
+    width: 1200px;
+    height: 505px;
+    /* background:red; */
+    margin: auto;
+    margin-bottom: 70px;
+
+}
+#che .che_1 .zuo{
+    width: 600px;
+    height: 505px;
+    float: left;
+     /* background:black; */
+     /* margin-top: 18px; */
+}
+#che .che_1 .you{
+    width: 550px;
+    height: 505px;
+    float: right;
+     /* background:green; */
+     /* margin-top: 18px; */
+}
+#che .che_1 .you .nl{
+    font-family: Arial,"宋体";
+    font-size: 22px;
+    color: #000;
+    text-align: left;
+    padding: 7px 0;
+}
+#che .che_1 .you .nl2 {
+    width: 535px;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+    color: #999;
+    text-align: left;
+    padding: 15px 0 23px 0;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 19px;
+
+}
+#che .che_1 .you .nl2 i {
+    margin-left: 30px;
+    padding-left: 10px;
+    color: #f6827a;
+    font-family: Arial,"微软雅黑";
+    vertical-align: middle;
+
+}
+#che .che_1 .you .nl2 b {
+    color: #f6827a;
+    font-family: Arial,"微软雅黑";
+    vertical-align: middle;
+    font-size:20px;
+
+}
+#che .che_1 .you ul li{
+    height: 29px;
+    color: #999;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+    list-style: none;
+}
+#che .che_1 .you ul li a{
+    color:black;
+    text-decoration: none;
+}
+#che .che_1 .you .xian{
+    border-bottom: 1px solid #eeeded;
+    height: 0px;
+    position: relative;
+    z-index: 0;
+    margin: 20px 0 28px;
+    width: 535px;
+}
+#che .che_1 .you .duo{
+    display: inline-block;
+    width: 65px;
+    line-height: 29px;
+    height: 29px;
+    color: #999;
+    font-size: 14px;
+    font-family: Arial,"微软雅黑";
+ 
+    color: #999;
+    font-size:14px;
+}
+#che .che_1 .you .tong{
+    width: 140px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dedcdd;
+    cursor: pointer;
+    text-align: center;
+    color: #666!important;
+    display: inline-block;
+    background: none;
+    margin: 0 7px 7px 0!important;
+    vertical-align: middle;
+    font-family: Arial,"微软雅黑";
+    font-size: 14px;
+}
+#che .che_1 .you .sanbtn{
+ 
+    height: 33px;
+   margin-top:70px;
+    width: 502px;
+    text-align: left;
+    /* background:red; */
+}
+
+#che .che_1 .you .sanbtn  .btn1{
+    width: 138px;
+    height: 34px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+     background: #fdb2a4;
+     border:1px solid #fdb2a4 ;
+     color: #fff; 
+    font-family: "微软雅黑"; 
+     font-size: 14px; 
+}
+#che .che_1 .you .sanbtn  .btn2{
+    width: 138px;
+    height: 34px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+     background: #b7ac7e;
+     border:1px solid #b7ac7e ;
+     color: #fff; 
+    font-family: "微软雅黑"; 
+     font-size: 14px; 
+}
+#che .che_1 .you .sanbtn a{
+    width: 138px;
+    height: 34px;
+    line-height:33px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+     background:#feb8ae;;
+
+     color: #fff; 
+    font-family: "微软雅黑"; 
+     font-size: 14px; 
+     text-decoration: none;
+
+}
